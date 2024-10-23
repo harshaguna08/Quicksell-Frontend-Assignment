@@ -19,11 +19,11 @@ function KanbanBoard({ tickets, users, grouping }) {
   ];
 
   const userAvatars = {
-    'usr-1': '/Untitled/icons_FEtask/unnamed.jpg',
-    'usr-2': '/Untitled/icons_FEtask/unnamed2.png',
-    'usr-3': '/Untitled/icons_FEtask/unnamed3.png',
-    'usr-4': '/Untitled/icons_FEtask/unnamed.png',
-    'usr-5': '/Untitled/icons_FEtask/harsha.png'
+    'usr-1': '/Untitled/icons_FEtask/unnamed1.png',
+    'usr-2': '/Untitled/icons_FEtask/unnamed.jpg',
+    'usr-3': '/Untitled/icons_FEtask/unnamed2.jpg',
+    'usr-4': '/Untitled/icons_FEtask/unnamed3.jpg',
+    'usr-5': '/Untitled/icons_FEtask/harsha.jpeg'
   };
 
   const getTicketsByStatus = (status) => tickets.filter(ticket => ticket.status.toLowerCase() === status.name.toLowerCase());
